@@ -9,18 +9,16 @@
       text-align: center;
     }
 
-    #game canvas {
-      /*border: 1px solid red;*/
-      /*width: 480px;
-      height: 320px;*/
-    }
-
     .hidden {
       display: none;
     }
   </style>
 </head>
 <body>
+  <!-- I found that the images get cached by the browser, and even after I
+       modify them, I can't pick up the changes in the game. The solution is
+       to include them as images in the HTML itself, so I can bypass the cache
+       when reloading if necessary. -->
   <div class="hidden">
     <img src="tiles.png" />
     <img src="screens.png" />
