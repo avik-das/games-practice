@@ -1,6 +1,11 @@
 Money Run
 =========
 
+Quick Start
+-----------
+
+Open index.html in a browser.
+
 Objective
 ---------
 
