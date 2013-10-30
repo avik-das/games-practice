@@ -46,7 +46,7 @@ function loadImage(src) {
     img.addEventListener('error', reject);
 
     img.addEventListener('load', function(evt) {
-      resolve(evt.srcElement);
+      resolve(evt.target);
     });
 
     img.src = src;
